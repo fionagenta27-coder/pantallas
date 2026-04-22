@@ -1,0 +1,35 @@
+/* 1. CELULAR (Base - Menos de 768px) */
+body {
+    background-color: lightcoral; 
+    font-family: sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.texto-columnas {
+    column-count: 1;
+    padding: 20px;
+}
+
+/* 2. TABLET (Desde 768px hasta 1023px) */
+@media (min-width: 768px) {
+    body {
+        background-color: lightblue;
+    }
+
+    .texto-columnas {
+        column-count: 2;
+        column-gap: 30px;
+    }
+}
+
+/* 3. ESCRITORIO (Desde 1024px en adelante) */
+@media (min-width: 1024px) {
+    body {
+        background-color: lightgreen;
+    }
+
+    .texto-columnas {
+        column-count: 3;
+        column-gap: 40px;
+    }
+}
