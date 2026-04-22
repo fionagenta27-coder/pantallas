@@ -10,8 +10,8 @@ body {
     padding: 20px;
 }
 
-/* 2. TABLET (Desde 768px hasta 1023px) */
-@media (min-width: 768px) {
+/* 2. TABLET (Desde 400px hasta 1023px) */
+@media (min-width: 400px) {
     body {
         background-color: lightblue;
     }
